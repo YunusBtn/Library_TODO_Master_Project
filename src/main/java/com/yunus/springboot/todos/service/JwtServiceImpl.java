@@ -16,10 +16,10 @@ import java.util.function.Function;
 @Service
 public class JwtServiceImpl implements JwtService{
 
-    @Value("${spring.jwt.secret}")
+    @Value("${JWT_SECRET}")
     private String SECRET_KEY;
 
-    @Value("${spring.jwt.expiration}")
+    @Value("${JWT_EXPIRATION}")
     private long JWT_EXPIRATION;
 
     @Override
