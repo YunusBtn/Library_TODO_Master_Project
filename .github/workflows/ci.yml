@@ -52,7 +52,7 @@ jobs:
           JWT_EXPIRATION: 86400000
         run: mvn clean verify
 
-      - name: Test sonuçlarını yükle
+      - name: Test sonuçları
         if: always()
         uses: actions/upload-artifact@v4
         with:
