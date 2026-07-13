@@ -27,7 +27,7 @@ jobs:
           --health-retries 5
 
     steps:
-      - name: Kod
+      - name: Kodu çek
         uses: actions/checkout@v4
 
       - name: Java 17 kur
